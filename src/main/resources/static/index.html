@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>Hello World!</title>
 </head>
-<body>
+<body onload="connect()">
 <div>
-    <label>Your message: </label><input type="text"/>
-    <button>Send</button>
-    <p></p>
+    <label>Your message: </label><input id="messageToSent" type="text"/>
+    <button onclick="sentMessage()">Send</button>
+     <p id="response"></p>
 </div>
 <script src="js.js"></script>
 <script src="stomp.js"></script>

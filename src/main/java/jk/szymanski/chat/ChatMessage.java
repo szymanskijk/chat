@@ -2,20 +2,20 @@ package jk.szymanski.chat;
 
 public class ChatMessage {
 
-    private String message;
+    private String value;
 
     public ChatMessage(String message) {
-        this.message = message;
+        this.value = message;
     }
 
     public ChatMessage() {
     }
 
     public String getMessage() {
-        return message;
+        return value;
     }
 
     public void setMessage(String message) {
-        this.message = message;
+        this.value = message;
     }
 }
